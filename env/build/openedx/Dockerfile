@@ -20,7 +20,7 @@ RUN curl -L -o /tmp/dockerize.tar.gz https://github.com/jwilder/dockerize/releas
 # Checkout edx-platform code: https://github.com/edx/edx-platform/commits/open-release/ironwood.master
 # Because we are pulling from a branch, and not a tag, you should manually modify the
 # date hash below to force clearing the docker cache.
-ARG EDX_PLATFORM_REPOSITORY=https://github.com/edx/edx-platform.git
+ARG EDX_PLATFORM_REPOSITORY=https://github.com/morta10/edx-platform.git
 ARG EDX_PLATFORM_VERSION=open-release/ironwood.master
 ARG EDX_PLATFORM_VERSION_DATE=20200505
 RUN mkdir -p /openedx/edx-platform && \
