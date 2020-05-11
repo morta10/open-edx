@@ -1,0 +1,57 @@
+{
+  "_development": true,
+  "_from": "@edx/mockprock@git+https://git@github.com/edx/mockprock.git#c9e4814ace9afad7a778e2af372b3125b3e56588",
+  "_id": "@edx/mockprock@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-aVVEyeK1Ori0j86++ASmiXHHs7I=",
+  "_location": "/@edx/mockprock",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@edx/mockprock@git+https://git@github.com/edx/mockprock.git#c9e4814ace9afad7a778e2af372b3125b3e56588",
+    "name": "@edx/mockprock",
+    "escapedName": "@edx%2fmockprock",
+    "scope": "@edx",
+    "rawSpec": "git+https://git@github.com/edx/mockprock.git#c9e4814ace9afad7a778e2af372b3125b3e56588",
+    "saveSpec": "git+https://git@github.com/edx/mockprock.git#c9e4814ace9afad7a778e2af372b3125b3e56588",
+    "fetchSpec": "https://git@github.com/edx/mockprock.git",
+    "gitCommittish": "c9e4814ace9afad7a778e2af372b3125b3e56588"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://git@github.com/edx/mockprock.git#c9e4814ace9afad7a778e2af372b3125b3e56588",
+  "_spec": "@edx/mockprock@git+https://git@github.com/edx/mockprock.git#c9e4814ace9afad7a778e2af372b3125b3e56588",
+  "_where": "/openedx/edx-platform",
+  "author": {
+    "name": "Dave St.Germain"
+  },
+  "bugs": {
+    "url": "https://github.com/edx/mockprock/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@edx/edx-proctoring": "^1.5.0-rc.1"
+  },
+  "deprecated": false,
+  "description": "Mock proctoring backend for Open edX",
+  "homepage": "https://github.com/edx/mockprock#readme",
+  "keywords": [
+    "proctoring",
+    "OpenedX"
+  ],
+  "license": "Apache-2.0",
+  "main": "static/index.js",
+  "name": "@edx/mockprock",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edx/mockprock.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

@@ -1,0 +1,6 @@
+API_HOST_URL: 'https://lms.aqlam-sd.net'
+ENVIRONMENT_DISPLAY_NAME: 'tutor'
+PLATFORM_NAME: 'Aqlam'
+PLATFORM_DESTINATION_NAME: 'lms.aqlam-sd.net'
+FEEDBACK_EMAIL_ADDRESS: 'support@lms.aqlam-sd.net'
+OAUTH_CLIENT_ID: 'android'
